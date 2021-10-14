@@ -4,11 +4,7 @@
 
 ## Introduction Draft 1
 
-The English Premier League is considered one of the most exciting soccer leagues in all of the world making Premier League games some of the most watched cable events in the world. Like other mainstream sporting leagues, the Premier League attracts significant attention from the gaming industry. Currently, predicting the victor of a Premier League match is impossible...as of now. We, as a group, will construct a comprehensive neural network to successfully predict the result of Premier League matches on a consistent basis.
-
-Soccer is regarded as one of the most unpredictable sports globally, so building a Neural Network model to accurately predict the results of English Premier League soccer matches is a challenging, yet exciting task. 
-
-<!--There has been some success with predicting the results of soccer matches in the past using recurrent Neural Networks, but we aim to improve on this accuracy and take it a step further by predicting scorelines.-->
+The English Premier League is considered one of the most exciting soccer leagues in all of the world making Premier League games some of the most watched cable events in the world. Like other mainstream sporting leagues, the Premier League attracts significant attention from the gaming industry. Currently, predicting the victor of a Premier League match with high certainty is very difficult...as of now. We, as a group, will attempt to construct a comprehensive neural network to successfully predict the result of Premier League matches on a consistent basis.
 
 To improve upon the previous [results](https://link.springer.com/chapter/10.1007/978-981-15-9509-7_57), we will try to use a more robust dataset with more pre-game and post-game datapoints such as expected goals for and against along with a more optimized algorithm. Another key modification is that their results are outdated and do not continue to learn, whereas we want to keep our model as up to date as possible. This might mean reading data in from the last 3-4 years instead of the last 7-8 years. 
 
