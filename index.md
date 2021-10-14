@@ -4,7 +4,7 @@
 
 ## Introduction Draft 1
 
-<!--The English Premier League is considered one of the most exciting soccer leagues in all of the world making Premier League games some of the most watched cable events in the world. Like other mainstream sporting leagues, the Premier League attracts significant attention from the gaming industry. Currently, predicting the victor of a Premier League match is impossible...as of now. We, as a group, will construct a comprehensive neural network to successfully predict the result of Premier League matches on a consistent basis.-->
+The English Premier League is considered one of the most exciting soccer leagues in all of the world making Premier League games some of the most watched cable events in the world. Like other mainstream sporting leagues, the Premier League attracts significant attention from the gaming industry. Currently, predicting the victor of a Premier League match is impossible...as of now. We, as a group, will construct a comprehensive neural network to successfully predict the result of Premier League matches on a consistent basis.
 
 Soccer is regarded as one of the most unpredictable sports globally, so building a Neural Network model to accurately predict the results of English Premier League soccer matches is a challenging, yet exciting task. 
 
