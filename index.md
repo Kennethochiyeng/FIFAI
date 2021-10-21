@@ -59,6 +59,7 @@ What we have completed or tried to complete:
 * We will likely use the dataset ["English Premier League (football)"](https://datahub.io/sports-data/english-premier-league#readme). 
   * The dataset only contains data till the 18-19 season, so we might have to train our data using the old data and test it on season 19-20. 
   * The dataset also contains a lot of irrelevant information that we will have to remove. 
+* Completed our introduction and related works sections. 
 
 Issues we have encountered:
 * Finding a comprehensive and up-to-date dataset containing relevant data from at least the last 4 seasons. 
