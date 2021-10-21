@@ -52,6 +52,10 @@ We will use a combination of ["English Premier League stats 2019-2020"](https://
 ### Overview of project
 We want to use a recurrent neural network along with long short-term memory since we want to keep track of patterns and form. Our inputs will be a vector of floating point values (expected goals for and expected goals against for the home team for the particular game). We will be performing classification. Our algorithm will predict the most probable scoreline out of a multitude of options. Hence, our output will be a vector of floating point values that hold the probablility of the match ending in a given scoreline. 
 
+## Project Update 2
+* We have decided our final project goal which is to predict the result of an English Premier League (EPL) soccer match.
+  * This was changed from predicting the scoreline of an EPL soccer match. 
+
 
 
 
