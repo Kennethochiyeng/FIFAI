@@ -65,6 +65,13 @@ Issues we have encountered:
 * Understanding exactly what data we need for our project.
   * We feel as though it might require trial and error and we might have to test the neural network with different datasets. 
 
+Addressing Hypothesis comments: 
+1. We have changed our project goal from predicting the soccer scoreline to predicting the result of the game. For this, we want to use an RNN since that has had the most success in the past. We also thought it made sense because it allows the network to remember previous results and hence take into consideration the form of the team.
+2. We are currently doing that and are taking a look at how to do it in PyTorch. 
+3. We have formatted the links and updated the document for our introduction draft. 
+4. We have added links in a consistent format for our introduction and related works draft. 
+5. We briefly discussed the ethical implications of building a successful project in our last paragraph in our initial introduction outline. However, we have now added a more comprehensive discussion on it at the end our current introduction draft.
+
 
 
 
