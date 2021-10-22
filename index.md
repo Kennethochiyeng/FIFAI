@@ -56,7 +56,7 @@ We want to use a recurrent neural network along with long short-term memory sinc
 What we have completed or tried to complete:
 * We have conclusively decided our final project goal which is to predict the result of an English Premier League (EPL) soccer match.
   * This was changed from predicting the scoreline of an EPL soccer match. 
-* We will likely use the dataset ["English Premier League (football)"](https://datahub.io/sports-data/english-premier-league#readme). 
+* We will likely use the dataset from [Football-data](https://www.football-data.co.uk/englandm.php). 
   * The dataset only contains data till the 18-19 season, so we might have to train our data using the old data and test it on season 19-20. 
   * The dataset also contains a lot of irrelevant information that we will have to remove. 
 * Completed our introduction and related works sections. 
