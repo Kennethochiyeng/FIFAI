@@ -43,14 +43,22 @@ This paper discusses a soccer match statistics prediction NN framwork. The NN is
 
 ## Project Update 1
 
-### Software
+
+## Methods Draft 1
+We want to use a recurrent neural network along with long short-term memory since we want to keep track of patterns and form. Our inputs will be a vector of floating point values (expected goals for and expected goals against for the home team for the particular game). We will be performing classification. Our algorithm will predict the most probable scoreline out of a multitude of options. Hence, our output will be a vector of floating point values that hold the probablility of the match ending in a given scoreline. 
+
+For our project we will mainly utilize Python and inparticular two powerful neural network libraries--[PyTorch](https://pytorch.org/) and [FastAI](https://docs.fast.ai/). We will use FastAI to create preliminary models of each team in the EPL that we hope to create predictions for. Trained on 5 seasons of data (2015-2020), these models will predict a given outcome against another team based on the home and away goals and win streaks of each team. Once each model has output a gaol prediction against the other team, we will take the difference to predict the winning team. Once we have initial models we will transition to PyTorch to flesh out our models and experiment with different model types. Following in the footsteps of the Jain et. al, paper, we will experiment with a recurrent neural network architecture to allow us to track and model temporal dynmaic behavior. 
+
+For our dataset we will use a combination of ["English Premier League stats 2019-2020"](https://www.kaggle.com/idoyo92/epl-stats-20192020?select=epl2020.csv), ["2021-2022 Premier League Stats"](https://fbref.com/en/comps/9/Premier-League-Stats) and ["English Premier League (football)"](https://datahub.io/sports-data/english-premier-league#readme). By scraping the online datasets with Python data scraping libraries such as Scrapy and BeauitufulSoup we will gather for and away goal results for each game in our target training seasons as well as win streaks to train our individual team models. After our initial training and results evaluation we will consider other parameters to train our models on. By using random trees we will determine the most applicable and correlated parameters to a teams goal output and expand our models to incorporate these parameters accordingly. Since we are working with such a small dataset we will potentially need to include a high drop out rate in order to prevent our model from simply memorizing game outcomes and instead forcing the models to learn correlations from the inputs.
+
+<!-- #### Software
 We will use a combination of [PyTorch](https://pytorch.org/) and [FastAI](https://docs.fast.ai/). 
 
-### Our Dataset
+#### Our Dataset
 We will use a combination of ["English Premier League stats 2019-2020"](https://www.kaggle.com/idoyo92/epl-stats-20192020?select=epl2020.csv), ["2021-2022 Premier League Stats"](https://fbref.com/en/comps/9/Premier-League-Stats) and ["English Premier League (football)"](https://datahub.io/sports-data/english-premier-league#readme).
 
-### Overview of project
-We want to use a recurrent neural network along with long short-term memory since we want to keep track of patterns and form. Our inputs will be a vector of floating point values (expected goals for and expected goals against for the home team for the particular game). We will be performing classification. Our algorithm will predict the most probable scoreline out of a multitude of options. Hence, our output will be a vector of floating point values that hold the probablility of the match ending in a given scoreline. 
+#### Overview of project
+We want to use a recurrent neural network along with long short-term memory since we want to keep track of patterns and form. Our inputs will be a vector of floating point values (expected goals for and expected goals against for the home team for the particular game). We will be performing classification. Our algorithm will predict the most probable scoreline out of a multitude of options. Hence, our output will be a vector of floating point values that hold the probablility of the match ending in a given scoreline.  -->
 
 ## Project Update 2
 What we have completed or tried to complete:
